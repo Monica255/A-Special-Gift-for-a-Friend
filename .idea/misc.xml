@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Study/Android Project/DefinitelynotaVirus/app/src/main/res/layout/fragment_ninth_wishes.xml" value="0.14407866609662248" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/fragment_eighth_wishes.xml" value="0.15989583333333332" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/fragment_fifth_list_events.xml" value="0.15208333333333332" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/fragment_first_hello.xml" value="0.14666666666666667" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/fragment_fourth_todays_date.xml" value="0.17552083333333332" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/fragment_ninth_wishes.xml" value="0.15989583333333332" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/fragment_second_name.xml" value="0.17552083333333332" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/fragment_seventh_just_next.xml" value="0.128125" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/fragment_sixth_webview.xml" value="0.15208333333333332" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/fragment_tenth_last.xml" value="0.14666666666666667" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/fragment_third_confirm_date.xml" value="0.17552083333333332" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/layout/item_event.xml" value="0.22" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/BANGKIT/DefinitelynotaVirus/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

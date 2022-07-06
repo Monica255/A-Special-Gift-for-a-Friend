@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="15dp"
+    tools:context=".NinthWishesFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_wish1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:alpha="0"
+            android:gravity="center_horizontal"
+            android:text="On this special day"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_wish2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:alpha="0"
+            android:gravity="center_horizontal"
+            android:text="May your birthday be as wonderful as you are"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintTop_toBottomOf="@id/tv_wish1" />
+
+        <TextView
+            android:id="@+id/tv_wish3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:alpha="0"
+            android:gravity="center_horizontal"
+            android:text="May all your wishes come true"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintTop_toBottomOf="@id/tv_wish2" />
+
+        <TextView
+            android:id="@+id/tv_wish4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:alpha="0"
+            android:gravity="center_horizontal"
+            android:text="May the days following today also be filled with happiness"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintTop_toBottomOf="@id/tv_wish3" />
+
+        <TextView
+            android:id="@+id/tv_wish5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:alpha="0"
+            android:gravity="center_horizontal"
+            android:text="May God bless you abundantly"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintTop_toBottomOf="@id/tv_wish4" />
+
+        <TextView
+            android:id="@+id/tv_wish6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:alpha="0"
+            android:gravity="center_horizontal"
+            android:text="And may we always be best friends
+\nuntil we are old and senile"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            app:layout_constraintTop_toBottomOf="@id/tv_wish5" />
+
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:alpha="0"
+            android:background="@android:color/transparent"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_wish6" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

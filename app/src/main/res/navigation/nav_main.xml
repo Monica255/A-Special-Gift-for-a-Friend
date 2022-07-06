@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/firstHelloFragment">
+
+    <fragment
+        android:id="@+id/firstHelloFragment"
+        android:name="com.example.definitelynotavirus.FirstHelloFragment"
+        android:label="fragment_first_hello"
+        tools:layout="@layout/fragment_first_hello" >
+        <action
+            android:id="@+id/action_firstHelloFragment_to_secondNameFragment"
+            app:destination="@id/secondNameFragment"
+            app:popUpTo="@id/nav_main"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondNameFragment"
+        android:name="com.example.definitelynotavirus.SecondNameFragment"
+        android:label="fragment_second_name"
+        tools:layout="@layout/fragment_second_name" >
+        <action
+            android:id="@+id/action_secondNameFragment_to_thirdConfirmDateFragment"
+            app:destination="@id/thirdConfirmDateFragment"
+            app:popUpTo="@id/nav_main"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdConfirmDateFragment"
+        android:name="com.example.definitelynotavirus.ThirdConfirmDateFragment"
+        android:label="fragment_third_confirm_date"
+        tools:layout="@layout/fragment_third_confirm_date" >
+        <action
+            android:id="@+id/action_thirdConfirmDateFragment_to_fourthTodaysDateFragment"
+            app:destination="@id/fourthTodaysDateFragment"
+            app:popUpTo="@id/nav_main"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourthTodaysDateFragment"
+        android:name="com.example.definitelynotavirus.FourthTodaysDateFragment"
+        android:label="fragment_fourth_todays_date"
+        tools:layout="@layout/fragment_fourth_todays_date" >
+        <action
+            android:id="@+id/action_fourthTodaysDateFragment_to_fifthListEventsFragment"
+            app:destination="@id/fifthListEventsFragment"
+            app:popUpTo="@id/nav_main"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/fifthListEventsFragment"
+        android:name="com.example.definitelynotavirus.FifthListEventsFragment"
+        android:label="fragment_fifth_list_events"
+        tools:layout="@layout/fragment_fifth_list_events" >
+        <action
+            android:id="@+id/action_fifthListEventsFragment_to_sixthWebviewFragment"
+            app:destination="@id/sixthWebviewFragment"
+            app:popUpTo="@id/nav_main"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/sixthWebviewFragment"
+        android:name="com.example.definitelynotavirus.SixthWebviewFragment"
+        android:label="fragment_sixth_webview"
+        tools:layout="@layout/fragment_sixth_webview" >
+        <action
+            android:id="@+id/action_sixthWebviewFragment_to_seventhJustNextFragment"
+            app:destination="@id/seventhJustNextFragment"
+            app:popUpTo="@id/nav_main"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/seventhJustNextFragment"
+        android:name="com.example.definitelynotavirus.SeventhJustNextFragment"
+        android:label="fragment_seventh_just_next"
+        tools:layout="@layout/fragment_seventh_just_next" >
+        <action
+            android:id="@+id/action_seventhJustNextFragment_to_eighthWishesFragment"
+            app:destination="@id/eighthWishesFragment"
+            app:popUpTo="@id/nav_main"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/eighthWishesFragment"
+        android:name="com.example.definitelynotavirus.EighthWishesFragment"
+        android:label="fragment_eighth_wishes"
+        tools:layout="@layout/fragment_eighth_wishes" >
+        <action
+            android:id="@+id/action_eighthWishesFragment_to_ninthWishesFragment"
+            app:destination="@id/ninthWishesFragment"
+            app:popUpTo="@id/nav_main"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/ninthWishesFragment"
+        android:name="com.example.definitelynotavirus.NinthWishesFragment"
+        android:label="fragment_ninth_wishes"
+        tools:layout="@layout/fragment_ninth_wishes" >
+        <action
+            android:id="@+id/action_ninthWishesFragment_to_tenthLastFragment"
+            app:destination="@id/tenthLastFragment"
+            app:popUpTo="@id/nav_main"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/tenthLastFragment"
+        android:name="com.example.definitelynotavirus.TenthLastFragment"
+        android:label="fragment_tenth_last"
+        tools:layout="@layout/fragment_tenth_last" />
+</navigation>
